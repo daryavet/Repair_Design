@@ -131,66 +131,18 @@
 }
 
 
-/*    sections */
-.first_scr{
-    height: 707px;
-    width: 100%;
-    margin: 0;
-    background: url('../content/bg/main_bg.png') center center/cover no-repeat;
-    padding-top: 194px;
-    padding-left: 134px;
-}
-
-.projects{
-    width: 100%;
-    height: 1074px;
-    background-color:var(--black);
-    
-    
-}
-
-.measurement{
-    background: transparent;
-    margin-top: -324px;
-}
 
 
-.repaires{
-    max-width: 1236px;
-    margin: 0 auto;
-    padding-top: 147px;
-    padding-bottom: 242.56px;
-}
 
- .realize{
-    width: 100%;
-    min-height: 864px;
-    background: url('../content/bg/realize.png') center center/cover no-repeat;
- }
- 
-.clients{
-    height: 1106.65px;
-    margin-top: 110px;
-    background:url(../content/bg/Group_.png) bottom center/100% no-repeat ;
-    
-}
 
-.clients_descr{
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 29px;
-    text-align: center;
-    color: var(--dark_gray);
-    margin: 0;
-    margin-top: 24.16px;
-}
 
-.contacts{
-    position: relative;
-    height: 953.9px;
-    width: 100%;
-    margin-top: 0;
-    background: url(../content/bg/adress_bg.png) center center/cover no-repeat;
-    padding-top: 222.67px;
-    padding-bottom: 65.93px;
-}
+
+
+
+
+
+
+
+
+
+

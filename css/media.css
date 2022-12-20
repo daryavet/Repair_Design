@@ -1,0 +1,121 @@
+@media  (max-width: 1285px)
+{
+    .container{
+        padding:  0 20px;
+    }
+    header{
+        height: 70px;
+        
+    }
+
+    .nav_wrapper{
+        width: 1100px;
+
+    }
+    .nav_logo{
+        margin-right: 60px;
+
+    }
+    .first_scr{
+       padding-top:150px; 
+       
+    }
+    .projects{
+        
+    }
+    .projects_wrapper{
+        justify-content: space-around;
+    }
+    .repaires{
+       
+    }
+    .repaires_wrapper{
+        justify-content: space-around;
+        margin-top: 20px;
+        
+    }
+    
+    .repaires_item{
+        width: 340px;
+        height: 484px;
+    }
+    .repaires_item_text{
+        width: 270px;
+        height: 241px;
+        left:0;
+        top:223px;
+        padding-top: 21px;
+        padding-left: 31px;
+    }
+    .repaires_item_text .repareires_item_list{
+        margin-top: 10px;
+        line-height: 22px;
+    }
+    .repaires_item_coast{
+        width: 190px;
+        height: 40px;
+        left:0;
+
+    }
+    .repaires_item_coast span{
+        margin: 12px auto;
+        font-size: 15px;
+        line-height: none;
+
+    }
+    .repaires_order{
+        margin-top: 40px;
+        justify-content: center;
+    }
+     
+    .realize_wrapper{
+        width: 100%;
+    }
+
+    
+    .realize_styles{
+        width: 350px;
+        margin-right: 10px;
+        padding: left 20px;
+    }
+    .realize_photo{
+        width: 680px;
+    }
+    .realize_photo .photo1{
+        margin-right: 25px;
+    }
+    .realize_photo .photo3{
+        margin-top: 25px;
+    }
+
+    .clients{
+        height: 950px;
+        margin-top: 70px;
+        
+    }
+    .clients_wrapper{
+        width: 1150px;
+        justify-content: space-around;
+
+    }
+     .clients_wrapper .clients_item{
+        width: 350px;
+        height: 390px;
+    }
+    .clients_item_rectangle {
+        margin-top: 40px;
+    }
+    .contacts{
+        
+    }
+    footer{
+        height: 90px;
+        
+    }
+}
+
+@media  (max-width: 1200px){
+.container{
+    padding: 0 30px;
+}
+}
