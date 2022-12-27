@@ -51,6 +51,21 @@
     
 }
 
+.btn_slider_round{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: none;
+}
+.btn_slider_round:nth-child(even){
+    position: relative;
+    transform: rotateY(180deg);
+}
+.btn_slider_round .slider_stroke{
+    position: absolute;
+    transform:translate(-50%,-50%)
+
+}
 /* subtitle_icon */
 
 .subtitle_icon{

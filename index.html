@@ -29,7 +29,11 @@
 
                     <a class="nav_phone" href="+79287683239">+7 (928) 768-32-39</a>
 
-                    <button class="btn">Request a call</button>
+                    <div class="nav_btn">
+                        <button class="btn">Request a call</button>
+                        <a class="nav_phone nav_phone_display_none" href="+79287683239">+7 (928) 768-32-39</a>
+                    </div>
+                    
 
             </div>
                     
@@ -78,7 +82,12 @@
                             <p class="projects_text">Only a small part of the work performed by our company is presented on the site. For 14 years on in the construction<br> 
                                 market we have made happy more than 1000 families
                             </p>
-                            
+                            <div class="projects_img_wrapper_mobile">
+                                <button class='btn btn_slider_round'> <img src="content/icons/Vector_Stroke.svg" alt=".." class="slider_stroke"> </button>
+                                <img class="projects_img" src="content/image/completed_pj_1.png" alt="photo of project">
+                                <img class="projects_img projects_img_hidden" src="content/image/completed_pj_2.png" alt="photo of project_2">
+                                <button class='btn btn_slider_round'> <img src="content/icons/Vector_Stroke.svg" alt=".." class="slider_stroke"> </button>
+                            </div>
                             <div class="projects_info_wrapper">
                                 <div class="projects_info_item">
                                     <h3 class="project_info_item_subtitle item_subtitle">City:</h3>
@@ -104,9 +113,13 @@
                             </div>
                      </div>
                      <!-- pjabout -->
-
+                        <div class="projects_img_wrapper">
                         <img class="projects_img" src="content/image/completed_pj_1.png" alt="photo of project">
                         <img class="projects_img projects_img_hidden" src="content/image/completed_pj_2.png" alt="photo of project_2">
+                        </div>
+                        
+
+                     
                  </div>
                  <!-- projects_wrapper -->
             </div>
@@ -293,13 +306,14 @@
                         </ul>
                     </div>
                     <div class="realize_photo">
+                        <button class='btn btn_slider_round'> <img src="content/icons/Vector_Stroke.svg" alt=".." class="slider_stroke"> </button>
                         <!-- column1 -->
                         <img class="realize_photo_img photo1" src="content/image/realize_1.png" alt="">
                         <img class="realize_photo_img photo2" src="content/image/realize_2.png" alt="">
                         <!-- column2 -->
                         <img class="realize_photo_img photo4" src="content/image/realize_4.png" alt="">
                         <img class="realize_photo_img photo3" src="content/image/realize_3.png" alt="">
-                        
+                        <button class='btn btn_slider_round'> <img src="content/icons/Vector_Stroke.svg" alt=".." class="slider_stroke"> </button>
                     </div>
                     
                 </div>
@@ -394,7 +408,8 @@
         </section>
         <section class="contacts">
             <div class="container">
-                <div class="form_questions_wrapper">
+                <div class="contacts_wrapper"> 
+                    <div class="form_questions_wrapper">
                     <form class='questions_form' action="">
                     <h3 class="form_subtitle form_subtitle_questions">have any questions?</h3>
                         <label class="form_lable form_lable_white form_label_questions_name ">Name: <br><input class="input" type="text" placeholder="What is your name:"></label>
@@ -410,7 +425,7 @@
                         <button class="btn questions_form_btn">submit</button>
 
                     </form>
-            </div>
+                </div>
                 
 
                 <p class="contacts_text" id="contacts">Rostov-on-Don, Nansen St., 239 Shopping Center
@@ -423,7 +438,9 @@
 
 
                 <img  class='map_img'src="content/image/map.png" alt="map">
-
+</div>
+               
+                
             </div>
         </section>
     </main>
