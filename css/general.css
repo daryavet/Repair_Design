@@ -193,44 +193,43 @@ footer{
 }
 
 /*                                    project */
-.projects{
+ .projects{
     width: 100%;
     min-height: 1074px;
     background-color:var(--black);
+    padding: 0 20px;
       
 }
 .projects_content{
     margin: 0 auto;
     padding-top:107px;
-    width: 1171px;
-    height: 552.28px;
+  
 }
 
-.projects_wrapper{
-    display: flex;
-    justify-content: space-between;
-    padding-top: 45.36px;
+ .projects_wrapper{
+ display: flex;
+ height: 560px;
+ flex-direction: column;
+ flex-wrap: wrap;
+ padding-top: 52.68px;
 }
-.projects_about{
-    width: 442px;
-    display:flex;
-    flex-direction: column;
-    align-items: flex-start;
-
-    
+.projects_wrapper .title{
+    grid-area: title;
 }
 .projects_text{
+    grid-area: txt;
     margin-top: 34px;
     font-weight: 400;
     font-size: 14px;
     line-height: 27px;
+    width: 440px;
 
     color: var(--white);
 }
 .projects_info_wrapper{
-    
+    grid-area: info;
     display:grid;
-    width: 365px;
+    max-width: 365px;
     min-height: 171px;
     grid-template: 1fr 1fr/1fr 1fr;
 }
@@ -251,6 +250,7 @@ footer{
     color: var(--white);
 }
 .projects_img{
+    grid-area: img;
     width: 100%;
     max-height: 483px;
     filter: drop-shadow(0px 50px 30px rgba(0, 0, 0, 0.15));
@@ -263,9 +263,7 @@ footer{
     /* display: none; */
 
 }
-.projects_img_wrapper_mobile{
-    display: none;
-}
+
 
 
 /* slider */
@@ -295,6 +293,7 @@ footer{
     color:var(--yellow);
 }
 .vector{
+    grid-area: vector;
     margin-top: 79.64px;
     width: 205.68px;
     height: 13.28px;
@@ -527,11 +526,13 @@ align-items:center;
 
 }
 .repaires_order_steps_item_round{
-display:inline-block;
-position: relative;
+display:flex;
+align-items:center;
+justify-content: center;
 width: 41.76px;
 height: 41.76px;
 border-radius: 50%;
+border: 5px solid var(--white);
 background-color:var(--yellow);
 margin-right: 16.39px;
 
@@ -540,10 +541,6 @@ margin-right: 16.39px;
 font-family: 'Yeseva One';
 font-weight: 400;
 font-size: 18px;
-position: absolute;
-margin: 0 auto;
-transform: translateX(50%) translateY(50%);
-
 color: var(--white);
 
 }
@@ -638,8 +635,9 @@ margin-top: 20.94px;
 
 }
 .save_round{
-display:block;
-position: relative;
+display:flex;
+align-items:center;
+justify-content: center;
 width: 72px;
 height: 72px;
 background-color: var(--yellow);
@@ -647,11 +645,8 @@ border-radius: 50%;
 margin-right: 25px;
 }
 .save_round img{
-position:absolute;
 width: 40px;
 height: 33.04px;
-margin: 0 auto;
-transform: translateX(50%) translateY(50%);
 }
 .save_descr{
 display: block;
@@ -966,21 +961,15 @@ text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
     
 }
 .contacts_social_wrapper .round{
-    display: block;
-    position:relative;
+    display: flex;
+    align-items:center;
+    justify-content: center;
     width: 28px;
     height: 28px;
     border-radius: 50%;
     background-color: var(--yellow);
 }
- .round .social_round_link{
-    text-decoration: none;
-    position:absolute;
-    left:50%;
-    margin-left: -6px;
-    top:50%;
-    margin-top: -10px;
- }
+
  .round .social_round_link .social_round_link_icn{
   height: 12px;
  }
