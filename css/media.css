@@ -562,7 +562,8 @@
             background-color: var(--black);
             background-image: none;
             padding:0 20px;
-            min-height: 1540px;
+            padding-bottom: 20px;
+            height: fit-content;
            
         }
         .contacts_wrapper{
@@ -661,11 +662,17 @@
         padding:0 20px;
         padding-top: 83px;
     }
+    .repaires .repaires_wrapper{
+        justify-content: flex-start;
+    }
     .repaires .repaires_wrapper .repaires_item{
         margin: 0 auto;
-        margin-top: 40px;
+        margin-top: 59px;
         width: 340px;
         height: 480px;
+    }
+    .repaires .repaires_wrapper .repaires_item:first-child{
+        margin-top: 0;
     }
     .repaires_item_text{
         height: 241px;
@@ -759,19 +766,23 @@
         margin-top: 67px;
        
     }
-    .contacts{
-        min-height: 1300px;
-    }
+   
     .contacts_wrapper .map_img{
         width: 100%;
         min-height: 255px;
         margin-top: 50px;
+        object-fit: cover;
     }
     .contacts_text{
         width: 100%;
+        height: unset;
         font-size: 18px;
         line-height: 25px;
         margin-top: 40px;
+        padding: 0 13px;
+    }
+    .contacts_text br{
+        display: inline-block;
     }
     .contacts_social_wrapper{
         margin: 0 auto;
@@ -791,3 +802,32 @@
     }
 }
 
+@media screen and (max-width: 374px){
+    .nav_logo{
+        width: fit-content;
+    }
+    .first_scr .main_info_wrapper{
+        width: 100%;
+        padding: 0 15px;
+    }
+    .main_info_wrapper .main_info_text{
+        margin-top: 30px;
+        
+    }
+    .main_info_wrapper .first_scr_btn{
+        width: 100%;
+    }
+    .mesurement_form .mesurement_form_btn{
+        width: 100%
+    }
+    .repaires .repaires_wrapper .repaires_item{
+        width: 100%;
+    }
+    .checkbox_questions .checkbox{
+        font-size: 13px;
+    }
+    .questions_form_btn{
+        width: 100%;
+    }
+
+}
