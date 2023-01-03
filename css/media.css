@@ -607,6 +607,7 @@
     }
     .projects_wrapper{
         padding-top: 36px;
+        height: unset;
     }
     .projects_wrapper .projects_text{
         font-size: 11px;
@@ -620,6 +621,7 @@
     .projects_info_wrapper {
         margin-top: 9.65px;
     }
+    
     .projects_info_wrapper .projects_info_item{
         margin-top: 27px;
     }
