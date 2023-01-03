@@ -799,6 +799,9 @@
         height: 39px;
         margin-right: 20.89px;
     }
+    .contacts_social_wrapper .round:last-child{
+        margin-right: 0;
+    }
     .round .social_round_link .social_round_link_icn{
        scale: 1.4;
     }
