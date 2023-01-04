@@ -590,7 +590,7 @@
         }
        .contacts_wrapper .map_img{
         width: 100%;
-        height: unset;
+        height: 299px;
         order: -1;
         }
        
@@ -769,9 +769,9 @@
        
     }
    
-    .contacts_wrapper .map_img{
-        width: 100%;
-        min-height: 255px;
+    .contacts .contacts_wrapper .map_img{
+        
+        height: 255px;
         margin-top: 50px;
         object-fit: cover;
     }
